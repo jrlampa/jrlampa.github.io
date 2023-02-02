@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
 
-{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Outfit', sans-serif;
 }
+
 body {
 display: flex;
 justify-content: center;
@@ -15,7 +16,7 @@ background-color: hsl(212, 45%, 89%);
 overflow-y: hidden;
 }
 
-/MOBILE FRIST 375PX/
+/*MOBILE FRIST 375PX*/
 .container__disp {
 background-color: hsl(0, 0%, 100%);
 margin-top: 1em;
@@ -48,9 +49,9 @@ width: 100%;
 }
 
 .container__text {
-margin-top: 2em;
-padding: 1em; /* combinando padding-left e padding-right /
-width: 100%; / removendo calc */
+margin-top: 1em;
+padding: 1em 1em; /* combinando padding-left e padding-right */
+width: 100%; /*removendo calc */
 }
 
 h2 {
